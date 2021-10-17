@@ -27,8 +27,10 @@ public class AdvantageDemoShoppingCart {
 					driver.manage().window().maximize(); //To maximize the window
 					driver.get("https://www.advantageonlineshopping.com"); //To open URL of AdvantageDemo Website
 				} catch (Exception e) {
-					e.printStackTrace(); //It helps to trace the exception as I said at the beginning.
 					System.out.println("Check your Browser's Driver Update");
+					System.out.println("Cause is: " + e.getCause()); //To get cause of the exception.
+					System.out.println("Message is: " + e.getMessage()); //To get exception message.
+					e.printStackTrace(); //It helps to trace the exception as I said at the beginning.
 				}
 	}
 

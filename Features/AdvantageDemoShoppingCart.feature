@@ -4,7 +4,7 @@
 #Story: Validate Shopping Cart
 #Story number - TW04
 #Product Website: www.advantageonlineshopping.com
-#Feature: Shoping Cart Validation
+#Feature: Shopping Cart Validation
 #Scenario: Positive Test
 #Drafted on October 15, 2021
 Feature: Validate shopping cart
